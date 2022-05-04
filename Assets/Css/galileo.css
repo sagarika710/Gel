@@ -1,0 +1,2145 @@
+/* General */
+/* browser scrollbar */
+body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  .body {
+    padding: 0% 5% 0% 5%;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #917cff;
+  }
+  
+  /* Text Selection */
+  ::selection {
+    color: #fff;
+    background: #917cff;
+  }
+  
+  /* Default body */
+  * {
+    box-sizing: border-box;
+    font-family: "red hat display";
+    margin: 0;
+    padding: 0;
+  }
+
+/* =============================================================Home CSS======================================================== */ 
+  /* large screen  */
+  .home-page .section-1 {
+    width: 90vw;
+    margin-top: 7rem;
+  }
+  .home-page .section-1 .item a {
+    text-decoration: none;
+    color: #000;
+  }
+  .home-page .section-1-card {
+    background-color: #e4e8ff;
+    /* padding: 1.5rem; */
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+
+  .home-card-1 {
+    background-image: url("../Images/homecard1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .home-card-2 {
+    background-image: url("../Images/homecard2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .home-card-3 {
+    background-image: url("../Images/homecard3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .home-page .home-page .section-1-card .card-title {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #22223f;
+  }
+  
+  .home-page .secrion-1-text-body {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .home-page .section-1-card .card-text {
+    font-size: 16px;
+    color: #000;
+  
+    font-weight: 400 !important;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  .home-page .section-1-card > .card-body > .arrow-btn {
+    text-align: center;
+    background-image: url(../Images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .home-page .section-1-card .arrow > i {
+    font-size: 25px;
+  }
+  
+  /* small devices smartphone */
+  @media all and (max-width: 600px) {
+   .home-page  h2 {
+      font-size: 34px;
+      padding: 30px 0 10px 0;
+    }
+    .home-page .section-1 {
+      width: 100%;
+      margin-top: 6rem;
+    }
+  
+    .home-page .container-lg {
+      padding: 0;
+    }
+   .home-page  .secrion-1-text-body {
+      padding: 1rem 0;
+    }
+    .home-page .owl-carousel .card-title {
+      font-size: 24px;
+      color: #22223f;
+    }
+    .home-page .section-1-card .card-text {
+      font-size: 16px;
+    }
+    .home-page .section-1-card > .card-body > .arrow-btn {
+      display: none;
+    }
+   .home-page  #nonLoop .owl-stage {
+      padding-left: 0 !important;
+    }
+    .home-page #nonLoop2 .owl-stage {
+      padding-left: 0 !important;
+    }
+  }
+  
+  /* ipad tab */
+  @media all and (min-width: 700px) and (max-width: 850px) and (orientation: portrait) {
+    .home-page .section-1 {
+      width: 95%;
+      margin-top: 6rem;
+    }
+    .home-page .container-lg {
+      padding: 0;
+    }
+  
+   .home-page  #nonLoop .owl-stage {
+      padding-left: 0 !important;
+    }
+    .home-page #nonLoop2 .owl-stage {
+      padding-left: 0 !important;
+    }
+  }
+  
+  /* IPAD pro */
+  @media all and (min-width: 900px) and (max-width: 1100px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .home-page .section-1 {
+      width: 95%;
+      margin-top: 5rem;
+    }
+    .home-page .container-lg {
+      padding: 0;
+    }
+  
+    .home-page #nonLoop .owl-stage {
+      padding-left: 0 !important;
+    }
+   .home-page #nonLoop2 .owl-stage {
+      padding-left: 0 !important;
+    }
+  }
+  
+  /* ----------- Retina Screens ----------- */
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    .home-page .section-1 {
+      width: 87vw;
+      margin-top: 6rem;
+    }
+  
+    .home-page .section-1-card .card-title {
+      font-size: 28px;
+      margin-bottom: 7px;
+      color: #22223f;
+    }
+  
+    .home-page .section-1-card .card-text {
+      font-size: 15px;
+    }
+  }
+  
+  /* laptop small devices */
+  @media only screen and (min-width: 1050px) and (max-width: 1350px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .home-page .section-1 {
+      width: 87vw;
+      margin-top: 6rem;
+    }
+  
+    .home-page .section-1-card .card-title {
+      font-size: 28px;
+      margin-bottom: 7px;
+      color: #22223f;
+    }
+  
+    .home-page .section-1-card .card-text {
+      font-size: 15px;
+    }
+  }
+  
+  /* section-2 ======================= */
+  .home-page .section-2 {
+    margin-top: 7rem;
+  }
+  .home-page .section-2-card {
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #e4e8ff;
+    margin-bottom: 10px;
+  }
+  
+  .home-page .section-2-toggled {
+    background-color: #e4e8ff;
+  }
+  
+  .home-page .section-2-card .card-body {
+    padding: 0;
+  }
+  
+  .home-page .section-2-card img {
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    margin-block: 10px;
+  }
+  
+  .home-page .section-2-card .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #22223f;
+  }
+  
+  .home-page .readmore {
+    margin-top: 10px;
+  }
+  .home-page #readmore-btn {
+    color: #917cff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: small;
+    text-decoration: none;
+  }
+  
+  @media all and (max-width: 600px) {
+    .home-page .section-2 {
+      margin-top: 2rem;
+    }
+  
+    .home-page .section-2-card .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #22223f;
+    }
+    .home-page .small_paragraph {
+      font-size: 14px !important;
+    }
+  }
+  /* section-3 ======================= */
+  .home-page .section-3 {
+    margin-top: 7rem;
+  }
+  
+  @media all and (max-width: 600px) {
+    .home-page .section-3 {
+      margin-top: 2rem;
+    }
+  }
+  
+  /* section-4 ==============client love */
+  .home-page .section-4 {
+    margin-top: 7rem;
+  }
+  .home-page .clients-card {
+    border: 2px solid #e4e8ff;
+    border-radius: 10px;
+  }
+  
+  .home-page #act {
+    font-size: 14px;
+    color: #917cff;
+  }
+  
+  .home-page #emt {
+    font-size: 14px;
+    color: #e4e8ff;
+  }
+  
+  @media all and (max-width: 600px) {
+    .home-page .section-4 {
+      margin-top: 2rem;
+    }
+    .home-page .feedback {
+      margin-inline: 0em;
+    }
+  
+    .home-page .clients-card {
+      padding: 0em;
+    }
+  
+    .home-page .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .home-page .clients-card .card-body img {
+      width: 80px;
+    }
+  
+    .home-page .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+  
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .home-page .feedback {
+      margin-inline: 1em;
+    }
+  
+    .home-page .clients-card {
+      padding: 0.5em;
+    }
+  
+    .home-page .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .home-page .clients-card .card-body img {
+      width: 80px;
+    }
+  
+   .home-page  .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  
+   .home-page  #act {
+      font-size: 10px;
+      color: #917cff;
+    }
+  
+    .home-page #emt {
+      font-size: 10px;
+      color: #e4e8ff;
+    }
+  }
+  
+  .home-page .head {
+    color: #172b52;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    padding: 0 0 20px 0;
+  }
+  .home-page .card-title h5 {
+    color: #22223f;
+  }
+  
+  .home-page .mystyle {
+    background: #e4e8ff !important;
+  }
+  
+  .home-page .myBtn1 {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    color: #917cff;
+  }
+  
+  .home-page .card {
+    border: none !important;
+    border-radius: 12px;
+  }
+  .home-page .small_paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+  }
+  @media all and (max-width: 600px) {
+    .home-page .small_paragraph {
+      font-size: 14px !important;
+    }
+    .home-page .myBtn1 {
+      border: none;
+      background: transparent;
+      font-size: 16px;
+      font-weight: 700;
+      color: #917cff;
+    }
+  }
+  @media all and (max-width: 800px) {
+    .home-page .body {
+      padding: 0% 0% 0% 3%;
+    }
+    .home-page .container {
+      padding-right: 0px;
+    }
+  }
+/* =============================================== Home CSS End ================================================================= */
+
+/*======================================================= contact us =========================================================*/
+.contactus .body{
+    padding: 0% 5% 0% 5%;
+  }
+  .contactus p {
+    font-style: normal;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 18x;
+     color: #000;    
+    line-height: 178%;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  .contactus h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    color: #22223f;
+    line-height: 79px;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  .contactus .header-text-right{
+    font-size: 60px;
+  }
+  .contactus .page-btn {
+    background-color: #917cff;
+    padding: 10px 0px;    
+    color: #fff;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .contactus .container {
+      padding: 10px;
+    }
+    .contactus h6 {
+      margin-left: 10px;
+    }
+    .contactus h2 {
+      text-align: left;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .contactus p {
+      text-align: left;
+      font-size: 25px;
+    }
+   
+  }
+  @media only screen and (max-width: 768px) {
+    .contactus .container {
+      padding: 5px;
+    }
+   .contactus h2 {
+     
+      font-weight: 700;
+      font-size: 50px;
+    }
+    .contactus p {
+      text-align: left;
+      font-size: 20px;
+    }
+    
+  }
+  @media only screen and (max-width: 576px) {
+    .contactus .container {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .contactus .page-btn {
+      background-color: #917cff;
+      padding: 10px 0px;
+      width: 95% !important;
+      color: #fff;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+      position: relative;
+    }
+  }
+  @media only screen and (max-width: 467px) {
+    .contactus h2 {
+     
+      font-size: 25px !important;
+      line-height: 40px;
+    
+    }
+    .contactus p{
+      font-size: 12px;
+    }
+  }
+/*====================================================== contact us CSS End ============================================================ */
+
+
+/*================================================================== pricing pay CSS ==================================================*/
+.pricing-private-pay p{
+    margin-bottom: 5px !important;
+}
+.pricing-private-pay .page-body {
+    padding: 0% ;
+  margin-top: 8rem;
+}
+.pricing-private-pay .heading{
+    font-size: 36px;
+    font-weight: 800;
+    color: #22223f;
+}
+.pricing-private-pay .title{
+    font-size: 16px;
+    color: #917CFF;
+}
+.pricing-private-pay .box{
+    border: 2px solid #E4E8FF;
+    border-radius: 12px;
+    padding: 0% 3%;
+    margin: 2% 0%;
+}
+.pricing-private-pay .box_heading{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 1%;
+    color: #22223f;
+}
+.pricing-private-pay .pragraph{
+    font-size: 16px;
+    color: #000;
+ 
+}
+.pricing-private-pay .price_visit{
+    font-size: 16px;
+    color: #917CFF;
+}
+.pricing-private-pay .bgcolor{ 
+    background:#E4E8FF;
+   }
+.pricing-private-pay .removebg{ 
+    background:white; 
+  }
+ .pricing-private-pay .free{
+    text-align: end;
+    padding-top: 1.5%;
+  }
+@media screen and (min-width: 320px) and (max-width: 640px) {
+   .pricing-private-pay .page-body {
+      padding: 0% 4% 0% 6%;
+      margin-top: 7em;
+    }
+   .pricing-private-pay .free{
+        text-align: start;
+        padding-top: 1.5%;
+      }
+}
+@media screen and (min-width: 640px) and (max-width: 800px) {
+   .pricing-private-pay .page-body {
+      padding: 0% 1% 0% 1%;
+      margin-top: 7em;
+    }
+   .pricing-private-pay .free{
+        text-align: start;
+        padding-top: 1.5%;
+      }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .pricing-private-pay .page-body {
+      padding: 0% 2% 0% 4%;
+      margin-top: 7em;
+    }
+}
+/* ======================================================Pricing pay CSS End ========================================================= */
+
+/*=============================================================== Smart clinic CSS =======================================================*/
+
+ /*.page-body {
+    padding: 0rem;
+    margin-top: 8rem;
+  }
+  
+  .section {
+    height: 50vh;
+  }
+  
+  h1 {
+    color: #22223f;
+    letter-spacing: 5px;
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-text-stroke: 3.5px #000;
+    padding-block: 0.2em;
+  } */
+  .visit_smart_clinic {
+    font-size: 60px;
+  }
+  
+  #section-1-head {
+    font-size: 4em;
+  }
+  
+  .small-text {
+    color: 000f;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .section-img {
+    width: 100%;
+    padding: 0.2em;
+  }
+  
+  .body-content {
+    margin-top: 5em;
+  }
+  
+  .page-btn {
+    background-color: #917cff;
+    color: #fff;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-block: 1rem;
+    font-size: 18px;
+  }
+  
+  .call-btn {
+    background-color: #917cff;
+    color: #fff;
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-block: 1rem;
+    font-size: 13px;
+  }
+  
+  .section-1-card {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e4e8ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .smart-clinic-page .section-2-icons {
+    width: 5em;
+  }
+
+  .smart-clinic-page .section-2-card {
+    width: 100%;
+    padding: 2.5em 0.5em;
+    height: 90%;
+    border: 3px solid #e4e8ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .smart-clinic-page .card-text {
+    color: #22223f;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+  }
+  
+  .section-3-list {
+    list-style-type: none;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #22223f;
+    float: left;
+  }
+  
+  .section-3-list::before {
+    content: url(../Icons/bullet-icon.png);
+    padding-inline-end: 1rem;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 640px) {
+    .visit_smart_clinic {
+      font-size: 34px !important;
+    }
+    .page-body {
+      padding: 0% 5% 0% 5%;
+      margin-top: 7em;
+    }
+    .section {
+      height: auto;
+      margin-inline: 0em;
+    }
+  
+    h1 {
+      letter-spacing: 2px;
+      font-size: 2em;
+      font-weight: 700;
+      -webkit-text-stroke: 1.5px #000;
+      padding-block: 0.2em;
+    }
+  
+    #section-1-head {
+      font-size: 2em;
+    }
+  
+    .small-text {
+      color: #000;
+  
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    .section-img {
+      width: 100%;
+      padding: 0em;
+    }
+  
+    .section-2-icons {
+      width: 3em;
+    }
+  }
+  @media (min-width: 1026px) {
+    .section {
+      height: 90vh;
+    }
+    .visit_smart_clinic {
+      font-size: 46px;
+    }
+    .small-text {
+      color: #000;
+  
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  @media (min-width: 700px) and (max-width: 800px) {
+    .section {
+      height: 90vh;
+    }
+  }
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .pad {
+      max-width: 700px;
+    }
+    .visit_smart_clinic {
+      font-size: 46px;
+    }
+    .small-text {
+      color: #000;
+  
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+    .pad {
+      max-width: 700px;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    .visit_smart_clinic {
+      font-size: 46px;
+    }
+    .small-text {
+      color: #000;
+  
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  
+  /* <!-- ṃodal css --> */
+  .clinicListModal .clinic-dialog .modal-content {
+    width: 75vw;
+    margin-left: -65%;
+    padding: 1.5em 3em;
+  }
+  
+  .clinic-modal-header {
+    border-bottom: 0;
+  }
+  
+  .clinic-modal-header > button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  
+  .clinic-modal-title {
+    margin-left: 2%;
+  }
+  
+  .clinic-section {
+    padding-block: 5em;
+  }
+  
+  .clinic-heading {
+    margin-bottom: 4em;
+  }
+  
+  .clinic-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clinic-container {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border: 2px solid #e4e8ff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .clinic-container .clinic-info {
+    text-align: left !important;
+    padding: 1.5em;
+  }
+  
+  .clinic-info .card-text {
+    color: #22223f;
+    margin-bottom: 5px;
+    font-size: 13px !important;
+    text-align: left !important;
+  }
+  
+  .clinic-info .card-text b {
+    color: #917cff;
+  }
+  
+  .clinic-container .clinic-info > h3 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .clinic-container .clinic-info > h5 {
+    color: #917cff;
+    font-size: 15px;
+  }
+  
+  .clinic-container input {
+    display: none;
+  }
+  
+  .clinic-container label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-image: url("../Images/clinic-call-btn.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #f9f9ff;
+    z-index: 5;
+    transition: 0.8s ease-in-out;
+  }
+  
+  .clinic-container input:checked + label {
+    box-shadow: 0 0 0 600px #e4e8ff;
+    background-color: #e4e8ff;
+    opacity: 1;
+  }
+  
+  .clinic-container .clinic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -300px;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+  }
+  
+  .clinic-container .clinic .title {
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+    text-align: left;
+    padding: 10px 0;
+    color: #000;
+    z-index: 5;
+  }
+  
+  .clinic-container .clinic .title h3 {
+    margin-top: 4em;
+    line-height: 0;
+    color: #917cff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .clinic-container .clinic .title h4 > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .clinic-container input:checked ~ .clinic {
+    top: 0;
+  }
+  
+  /* Mobile Devices */
+  @media only screen and (max-width: 600px) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 90vw;
+      margin-left: 3%;
+      margin-right: 0 !important;
+      padding: 1em;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 100vw;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      margin-bottom: 1em;
+      height: 280px;
+    }
+    .clinic-container label {
+      width: 70px;
+      height: 45px;
+      bottom: 15px;
+    }
+  
+    .clinic-container .clinic-info {
+      padding: 1em;
+    }
+  
+    .clinic-modal-title {
+      margin-left: 6% !important;
+    }
+  }
+  
+  /* Medium device like IPad */
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 95vw;
+      margin-left: -22%;
+      margin-right: 0 !important;
+      padding: 1em;
+    }
+  
+    .clinic-wraper {
+      padding: 0;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 90vw;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      height: 270px;
+      margin-bottom: 0.5em;
+    }
+  
+    .clinic-container .clinic-info {
+      padding: 1em 0.5em;
+    }
+  
+    .clinic-container label {
+      left: 10px;
+    }
+  
+    .clinic-container .clinic {
+      top: -350px;
+    }
+  
+    .clinic-container .clinic .title {
+      padding: 5px 0;
+    }
+  
+    .clinic-container .clinic .title h3 {
+      font-size: 14px;
+    }
+  
+    .clinic-container .clinic .title h5 {
+      font-size: 12px;
+      line-height: 0;
+    }
+  
+    .section-1 {
+      margin-top: 15% !important;
+    }
+  }
+  
+  /* Portrait and Landscape */
+  @media only screen and (min-width: 1024px) and (max-height: 1380px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 88vw !important;
+      margin-left: -40%;
+      margin-right: 0 !important;
+      padding: 2em;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 90vw;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      height: 280px;
+      margin-bottom: 1em;
+    }
+  }
+  
+  /* Landscape */
+  @media only screen and (min-width: 1050px) and (max-width: 1350px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 84vw;
+      margin-left: -20vw;
+      padding: 1em;
+    }
+    .clinic-container .clinic-info {
+      text-align: left !important;
+      padding: 1em;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      height: 295px;
+    }
+  }
+  
+  /* for larger screen resolution */
+  @media only screen and (min-width: 1700px) and (max-width: 2560px) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 50vw !important;
+    }
+    .clinic-container {
+      height: 300px;
+    }
+  }
+  
+/* ./Smart clinic CSS */
+/* Doctor at Home CSS */
+/* <!-- ṃodal css --> */
+.clinicListModal .clinic-dialog .modal-content {
+    width: 48vw;
+    margin-left: -15%;
+    padding: 1.5em 3em;
+  }
+  h6{
+    margin-left: 0px !important;
+  }
+  
+  .clinic-modal-header {
+    border-bottom: 0;
+  }
+  
+  .clinic-modal-header > button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  
+  .clinic-modal-title {
+    margin-left: 2%;
+  }
+  
+  .clinic-section {
+    padding-block: 5em;
+  }
+  
+  .clinic-heading {
+    margin-bottom: 4em;
+  }
+  
+  .clinic-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clinic-container {
+    width: 100%;
+    height: 290px;
+    display: block;
+    border: 2px solid #e4e8ff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    /* margin-bottom: 3em; */
+  }
+  
+  .clinic-container .clinic-info {
+    text-align: left !important;
+    padding: 1.5em;
+    position: relative;
+  }
+  
+  .clinic-info .card-text {
+    margin-bottom: 5px;
+    color: #22223f;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    text-align: left !important;
+    opacity: 1;
+  }
+  
+  .clinic-info .card-text b {
+    color: #917cff;
+  }
+  
+  .clinic-container .clinic-info > h3 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .clinic-container .clinic-info > h5 {
+    color: #917cff;
+    font-size: 15px;
+  }
+  
+  .clinic-container input {
+    display: none;
+  }
+  
+  .clinic-container label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-image: url("../Images/clinic-call-btn.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #E4E8FF;
+    z-index: 3;
+    transition: 0.8s ease-in-out;
+  }
+  
+  .clinic-container input:checked + label {
+    box-shadow: 0 0 0 600px #E4E8FF;
+    background-color: #E4E8FF ;
+    opacity: 1;
+  }
+  
+  .clinic-container .clinic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -300px;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+  }
+  
+  .clinic-container .clinic .title {
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+    text-align: left;
+    padding: 10px 0;
+    color: #000;
+    z-index: 5;
+  }
+  
+  .clinic-container .clinic .title h3 {
+    margin-top: 4em;
+    line-height: 0;
+    color: #917cff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .clinic-container .clinic .title h4 > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .clinic-container input:checked ~ .clinic {
+    top: 0;
+  }
+  
+  /* Mobile Devices */
+  @media only screen and (max-width: 600px) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 90vw;
+      margin-left: 3%;
+      margin-right: 0 !important;
+      padding: 1em;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 100vw;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      margin-bottom: 1em;
+      height: 280px;
+    }
+    .clinic-container label {
+      width: 70px;
+      height: 45px;
+      bottom: 15px;
+    }
+  
+    .clinic-container .clinic-info {
+      padding: 1em;
+    }
+  
+    .clinic-modal-title {
+      margin-left: 6%;
+    }
+  }
+  
+  /* Medium device like IPad */
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 43vw;
+      margin-left: 18%;
+      margin-right: 0 !important;
+      padding: 1em;
+    }
+  
+    .clinic-wraper {
+      padding: 0;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 90vw;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      height: 270px;
+      margin-bottom: 0.5em;
+    }
+  
+    .clinic-container .clinic-info {
+      padding: 1em 0.5em;
+    }
+  
+    .clinic-container label {
+      left: 10px;
+      bottom: 5px;
+    }
+  
+    .clinic-container .clinic {
+      top: -350px;
+    }
+  
+    .clinic-container .clinic .title {
+      padding: 5px 0;
+    }
+  
+    .clinic-container .clinic .title h3 {
+      font-size: 14px;
+    }
+  
+    .clinic-container .clinic .title h5 {
+      font-size: 12px;
+      line-height: 0;
+    }
+  
+    .section-1 {
+      margin-top: 15% !important;
+    }
+  }
+  
+  /* Portrait and Landscape */
+  @media only screen and (min-width: 1024px) and (max-height: 1380px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 36vw !important;
+      margin-left: 14%;
+      margin-right: 0 !important;
+      padding: 2em;
+    }
+  
+    .clinic-section {
+      padding-block: 5em;
+      max-width: 90vw;
+    }
+    .clinic-container label {
+      left: 20px;
+      bottom: 5px;
+    }
+    .clinic-container {
+      width: 100%;
+      height: 280px;
+      margin-bottom: 1em;
+    }
+  }
+  
+  /* Landscape */
+  @media only screen and (min-width: 1050px) and (max-width: 1350px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 80vw;
+      margin-left: -20vw;
+      padding: 1em 2em;
+    }
+  
+    .clinic-container {
+      width: 100%;
+      height: 280px;
+    }
+  }
+  
+  /* accordian-css */
+  .section-1 {
+    margin-top: 0;
+  }
+  
+  .accordian-section {
+    background-color: #fff;
+    padding-block: 2em;
+    position: relative;
+  }
+  
+  .accordion-button {
+    background-color: #f9f9ff;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .accordion-button:focus {
+    border: none;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background: none;
+    color: #22223f;
+  }
+  
+  .accordion-item {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #f9f9ff;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .section-1 {
+      margin-top: 2em;
+    }
+  
+    .accordian-section {
+      padding-block: 4em;
+    }
+  }
+  
+  /* for larger screen resolution */
+  @media only screen and (min-width: 1700px) and (max-width: 2560px) {
+    .clinicListModal .clinic-dialog .modal-content {
+      width: 40vw !important;
+      margin-left: -32%;
+    }
+    .clinic-container {
+      height: 300px;
+    }
+  }
+  
+/* ./Doctor at Home */
+/* Service CSS */
+  .show-up {
+    position: relative;
+    z-index: 200;
+  }
+  /* */
+  
+  .card {
+    height: auto;
+    border-radius: 5px;
+    color: #000;
+  }
+  .card-text {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178%;
+    color: #000;
+  }
+  h6 {
+    font-size: 20px;
+    margin: 0;
+    color: #22223f;
+    font-weight: 800;
+  }
+  .feedback {
+    margin-top: 100px;
+  }
+  
+  .min_hight {
+    min-height: 40vh !important;
+  }
+  .min_hight_cont {
+    min-height: 60vh !important;
+  }
+  .min_hight_100 {
+    min-height: 100vh !important;
+  }
+  .disease_name {
+    font-size: 20px;
+    color: #22223f;
+  }
+  .service_paragraph {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    word-break: break-all;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .container {
+      padding: 10px;
+    }
+    h6 {
+      margin-left: 8px;
+    }
+    .card {
+      height: auto;
+      margin-bottom: 20px;
+    }
+    /* h6 {
+      margin-left: 10px;
+    }
+    h2 {
+      text-align: left;
+      font-weight: 700;
+      font-size: 55px;
+    } */
+    /* p {
+      text-align: left;
+      font-size: 25px;
+    } */
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 5px;
+    }
+    /* h2 {
+      font-weight: 700;
+      font-size: 50px;
+    }
+    p {
+      text-align: left;
+      font-size: 18px;
+    } */
+  }
+  @media only screen and (max-width: 576px) {
+    .container {
+      padding: 18px;
+      margin-top: 70px;
+    }
+  }
+  @media only screen and (max-width: 467px) {
+    .card {
+      padding: auto;
+      height: auto;
+      width: auto;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    /* h2 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    h6 {
+      margin-left: 10px;
+    } */
+  }
+  @media only screen and (max-width: 192px) {
+    .star {
+      margin-top: 10px;
+      width: min-content;
+      /* transform: rotate(90deg); */
+    }
+    .card {
+      height: auto;
+      width: auto;
+      padding: 0;
+    }
+  }
+  @media (min-width: 1026px) {
+    .min_hight {
+      min-height: 100vh !important;
+    }
+    .min_hight_cont {
+      min-height: 120vh !important;
+    }
+  }
+  
+  @media (min-width: 1026px) and (max-width: 1350px) {
+    /* h2 {
+      font-size: 50px;
+    } */
+  }
+  
+  
+  .design1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .design2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .data {
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+  }
+  .data h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 124%;
+    letter-spacing: 0.02em;
+    color: #22223f;
+  }
+  @media (max-width: 800px) {
+    .data h1 {
+      font-size: 30px;
+      padding-left: 15px;
+    }
+    .design1 {
+      width: 20%;
+    }
+    .banner {
+      padding: 25% 3%;
+    }
+    .design2 {
+      width: 20%;
+    }
+  }
+  
+  /*---------------accordian-section -----------------*/
+  
+  .accordian-section {
+    background-color: #f9f9ff;
+    padding-block: 8em;
+    position: relative;
+  }
+  
+  .accordian-section .right-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+  }
+  
+  .accordian-section .left-icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+  }
+  
+  .accordion-button {
+    padding: 0px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #22223f;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #00000005;
+  }
+  
+  .accordion-button:focus {
+    border: none;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background: none;
+    color: #000;
+  }
+  
+  .accordion-item {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+  }
+  
+  .accordion-button::after {
+    width: auto;
+    height: auto;
+    
+    font-size: 40px;
+    background-image: none;
+    font-weight: 100;
+    color: #1b6ce5;
+    transform: rotate(90deg);
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    content: "-";
+    font-size: 48px;
+    transform: rotate(0deg);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .accordian-section {
+      padding-block: 4em;
+    }
+  
+    .accordian-section .right-icon {
+      width: 80px;
+    }
+  
+    .accordian-section .left-icon {
+      width: 80px;
+    }
+    .accordion-button {
+      padding: 5px 0px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #22223f;
+      text-align: left;
+      border-radius: 10px;
+      box-shadow: 5px 10px 10px #00000005;
+    }
+  }
+  
+  .clients-card {
+    border: 2px solid #c0c1ff;
+  }
+  
+  #act {
+    font-size: 14px;
+    color: #917cff;
+  }
+  
+  #emt {
+    font-size: 14px;
+    color: #c1c1ff;
+  }
+  
+  @media all and (max-width: 600px) {
+    .feedback {
+      margin-inline: 0em;
+    }
+  
+    .clients-card {
+      padding: 0em;
+    }
+  
+    .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .clients-card .card-body img {
+      width: 80px;
+    }
+  
+    .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+  
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .feedback {
+      margin-inline: 1em;
+    }
+  
+    .clients-card {
+      padding: 0.5em;
+    }
+  
+    .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .clients-card .card-body img {
+      width: 80px;
+    }
+  
+    .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  
+    #act {
+      font-size: 10px;
+      color: #917cff;
+    }
+  
+    #emt {
+      font-size: 10px;
+      color: #c1c1ff;
+    }
+  }
+  
+  .clients-card {
+    border: 2px solid #c0c1ff;
+  }
+  
+  #act {
+    font-size: 14px;
+    color: #917cff;
+  }
+  
+  #emt {
+    font-size: 14px;
+    color: #c1c1ff;
+  }
+  
+  @media all and (max-width: 600px) {
+    .feedback {
+      margin-inline: 0em;
+    }
+  
+    .clients-card {
+      padding: 0em;
+    }
+  
+    .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .clients-card .card-body img {
+      width: 80px;
+    }
+  
+    .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+  
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .feedback {
+      margin-inline: 1em;
+    }
+  
+    .clients-card {
+      padding: 0.5em;
+    }
+  
+    .clients-card .card-body .card-text {
+      font-size: 12px;
+    }
+  
+    .clients-card .card-body img {
+      width: 80px;
+    }
+  
+    .clients-card .card-body h6 {
+      font-size: 14px;
+      margin: 0;
+    }
+  
+    #act {
+      font-size: 10px;
+      color: #917cff;
+    }
+  
+    #emt {
+      font-size: 10px;
+      color: #c1c1ff;
+    }
+  }
+  
+/* ./Service CSS */
+
+
+
+/*=============================================================== Blog Css ===================================================*/
+.show-up {
+  position: relative;
+  z-index: 200;
+}
+.blog-page p {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px;
+  color: #000;
+  font-family: "Red Hat Display", sans-serif;
+}
+.blog-page h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  color: #22223f;
+  line-height: 79px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.blog-card-footer{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  
+}
+.card {
+  height: auto;
+  border-radius: 5px;
+  color: #000;
+}
+.card-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 178%;
+  color: #000;
+}
+h6 {
+  font-size: 20px;
+  margin: 0;
+  color: #22223f;
+  font-weight: 800;
+}
+.feedback {
+  margin-top: 100px;
+}
+
+.min_hight {
+  min-height: 40vh !important;
+}
+.min_hight_cont {
+  min-height: 60vh !important;
+}
+.min_hight_100 {
+  min-height: 100vh !important;
+}
+.disease_name {
+  font-size: 20px;
+  color: #22223f;
+}
+.service_paragraph {
+  font-size: 16px;
+  color: #000;
+ 
+}
+/* .head{
+  font-size: 70px;
+  line-height: 200px;
+  text-align: center;
+} */
+
+
+@media only screen and (max-width: 992px) {
+  .container {
+    padding: 10px;
+  }
+  h6 {
+    margin-left: 8px;
+  }
+  .card {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  h6 {
+    margin-left: 10px;
+  }
+  /* h2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 55px;
+  } */
+  .head{
+    font-size: 55px;
+    /* line-height: 200px; */
+    text-align: center;
+  }
+  
+  /* p {
+    text-align: left;
+    font-size: 25px;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 5px;
+  }
+  /* h2 {
+    font-weight: 700;
+    font-size: 50px;
+  } */
+  .head{
+    font-size: 50px;
+    /* line-height: 200px; */
+    text-align: center;
+  }
+  
+  /* p {
+    text-align: left;
+    font-size: 18px;
+  } */
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 18px;
+    /* margin-top: 70px; */
+  }
+}
+@media only screen and (max-width: 467px) {
+  .card {
+    padding: auto;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .head{
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+
+  h6 {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 192px) {
+  .star {
+    margin-top: 10px;
+    width: min-content;
+    /* transform: rotate(90deg); */
+  }
+  .card {
+    height: auto;
+    width: auto;
+    padding: 0;
+  }
+}
+@media (min-width: 1026px) {
+  .min_hight {
+    min-height: 70vh !important;
+  }
+  .min_hight_cont {
+    min-height: 120vh !important;
+  }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .mt-15 {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 1350px) {
+  /* h2 {
+    font-size: 50px;
+  } */
+}
+
+/*----------banner-------------*/
+.banner {
+
+  margin: 80px 0px 80px 0px;
+  position: relative;
+
+}
+.design{
+  width: 100%;
+ 
+}
+/* .section-2-card img {
+
+  height:300px;
+} */
+
+
+
+@media (max-width: 800px) {
+  .data h1 {
+    font-size: 30px;
+    padding-left: 15px;
+  }
+  .design1 {
+    width: 20%;
+  }
+  .banner {
+    padding: 3% 3%;
+  }
+  .design2 {
+    width: 20%;
+  }
+}
+.mystyle {
+  background:#fff !important;
+}
+
+.hidden {
+  opacity:0;
+}
+.console-container {  
+  font-size:6em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 1025px) {
+    .console-container {
+ 
+ font-family:Khula;
+ font-size:4em;
+ text-align:center;
+ height:200px;
+ width:600px;
+ display:none;
+ position:absolute;
+ color:white;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+ margin:auto;
+}
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+/*===================================================== Blog CSS End============================================ */
+
+/* ===============================================About CSS===================================================== */
+.about .banner {
+  width: 100%;
+  background-color: #e4e8ff;
+  margin-top: 80px;
+  position: relative;
+  padding: 12% 25%;
+}
+.about h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #22223f;
+    line-height: 79px;
+    font-family: "Red Hat Display", sans-serif;
+}
+.about p {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px;
+  color: #000;
+  line-height: 178%;
+  font-family: "Red Hat Display", sans-serif;
+}
+.about .data p{
+font-size: 24px;
+}
+/* ====================================About CSS End ========================================================= */
+/* ======================================Service CSS ========================================================== */
+.service-page h2 {
+  font-weight: 900;
+  font-size: 70px;
+  color: #22223f;
+  line-height: 79px;
+}
+.service-page p {
+  font-weight: 400 !important;
+  font-size: 24px;
+  color: #000;
+}
+.service-page .body{
+  padding: 0% 5% 0% 5%;
+}

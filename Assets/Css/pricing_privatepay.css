@@ -1,0 +1,73 @@
+p{
+    margin-bottom: 5px !important;
+}
+.page-body {
+    padding: 0% ;
+  margin-top: 8rem;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 800;
+    color: #22223f;
+}
+.title{
+    font-size: 16px;
+    color: #917CFF;
+}
+.box{
+    border: 2px solid #E4E8FF;
+    border-radius: 12px;
+    padding: 0% 3%;
+    margin: 2% 0%;
+}
+.box_heading{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 1%;
+    color: #22223f;
+}
+.pragraph{
+    font-size: 16px;
+    color: #000;
+ 
+}
+.price_visit{
+    font-size: 16px;
+    color: #917CFF;
+}
+.bgcolor{ 
+    background:#E4E8FF;
+   }
+.removebg{ 
+    background:white; 
+  }
+  .free{
+    text-align: end;
+    padding-top: 1.5%;
+  }
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .page-body {
+      padding: 0% 4% 0% 6%;
+      margin-top: 7em;
+    }
+    .free{
+        text-align: start;
+        padding-top: 1.5%;
+      }
+}
+@media screen and (min-width: 640px) and (max-width: 800px) {
+    .page-body {
+      padding: 0% 1% 0% 1%;
+      margin-top: 7em;
+    }
+    .free{
+        text-align: start;
+        padding-top: 1.5%;
+      }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .page-body {
+      padding: 0% 2% 0% 4%;
+      margin-top: 7em;
+    }
+}

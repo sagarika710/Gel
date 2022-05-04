@@ -1,0 +1,435 @@
+.body{
+    padding: 0% 5% 0% 5%;
+  }
+  .logo h3{
+   font-size: 28px;
+   font-weight: 500;
+   margin-bottom: 8px !; 
+  }
+  .content {
+    max-width: 85vw;
+    margin: auto;
+    
+  }
+  .content-1 {
+    max-width: 85vw;
+    margin: auto;
+    /* margin-top: 6em; */
+    padding: 0px 30px;
+  }
+  @media (max-width: 868px) {
+    .content-1 {
+      padding: 0px;
+    }
+    
+  }
+  
+  /*------------------- Slider---------------- */
+  
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+  
+  
+  /* Carousel */
+  
+  .owl-carousel .carousel-item {
+    background: #e4e8ff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+  .owl-carousel .carousel-item1 {
+    background: red !important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .owl-carousel .carousel-item-text {
+    padding: 12px;
+  }
+  
+  .owl-carousel .carousel-item .item-kicker {
+   color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: initial;
+    font-family: "red hat display";
+    height: 100%;
+    margin-top: 16px;
+    overflow: hidden;
+    line-height: 178%;
+    
+  }
+  @media (max-width: 800px) {
+    .owl-carousel .carousel-item .item-kicker {
+      font-size: 12px;
+    }
+  }
+  .owl-carousel .carousel-item .item-kicker1 {
+   color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: initial;
+    font-family: "red hat display";
+    height: 70px;
+    margin-top: 16px;
+    overflow: hidden;
+    text-align: justify;
+  }
+  
+  .owl-carousel .carousel-item .item-title {
+    color: #22223F;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 10px;
+    overflow: hidden;
+    font-family: "red hat display";
+  }
+  @media (max-width: 1024px) {
+    .owl-carousel .carousel-item .item-title {
+      font-size: 20px;
+    }
+  }
+  
+  .owl-dots {
+    text-align: center;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .owl-dot {
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: rgba(127, 127, 127, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .owl-dot.active {
+    background: rgba(127, 127, 127, 1);
+  }
+  
+  /* Tabs */
+  
+  .nav-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .nav-tabs > li {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .nav-tabs > li:last-child {
+    margin-right: 0;
+  }
+  
+  .tab-content {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .tab-content .tab-pane {
+    display: none;
+  }
+  
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+  
+  .margin {
+    margin-top: 150px;
+  }
+  .btn1 {
+    background-color: #917cff;
+    padding: 10px 20px;
+    color: white !important;
+    border-radius: 7px;
+    font-weight: 900;
+  }
+  
+  .banner {
+    width: 100%;
+    background-color: #e4e8ff;
+    margin-top: 80px;
+    position: relative;
+
+    padding: 12% 25%;
+  }
+  .design1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .design2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .data {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .data h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 124%;
+    letter-spacing: 0.02em;
+  
+    color: #22223F;
+  }
+  .only_web {
+    display: block;
+  }
+  .mob {
+    display: none;
+  }
+  @media (max-width: 800px) {
+    .btn1 {
+      margin-left: 15px;
+    }
+    .mob {
+      display: block;
+    }
+    .only_web {
+      display: none;
+    }
+    .margin {
+      margin-top: 100px;
+    }
+    .data h1 {
+      font-size: 30px;
+      padding-left: 15px;
+    }
+    .design1 {
+      width: 20%;
+    }
+    .banner {
+      padding: 25% 3%;
+    }
+    .design2 {
+      width: 20%;
+    }
+  }
+  
+  .data p {
+    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 178%;
+   color: #000;
+  }
+  
+  .our {
+    font-family: Red Hat Display;
+    font-style: bolder;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 79px;
+    letter-spacing: 0.02em;
+    color: #22223F;
+    margin-top: 5%;
+  }
+  @media (max-width: 1024px) {
+    .our {
+      font-size: 35px;
+    
+    }
+    .data p {
+      padding-left: 15px;
+    }
+  }
+  
+  .our_img {
+    width: 45px;
+    height: 50px;
+  }
+  .our_img img {
+    width: 45px;
+    height: 50px;
+  }
+  
+  .our_txt {
+    text-align: left !important;
+    padding: 0px !important;
+  }
+  /* .our_txt_had {
+    font-size: 24px !important;
+  } */
+  .our_here {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+  
+   color: #000;
+    margin-bottom: 5%;
+  }
+  @media (max-width: 800px) {
+    .our_here {
+      font-size: 16px;
+      margin-left: 7%;
+    }
+    .our {
+      font-size: 35px;
+      margin-left: 7%;
+    }
+  }
+  
+  .out_itm {
+    border: 2px solid #e4e8ff !important;
+    box-sizing: border-box;
+  
+    background: white !important;
+  }
+  
+  .client_txt_had {
+    color: #22223f;
+    font-size: 18px !important;
+  }
+  #act {
+    font-size: 14px;
+    color: #917cff;
+  }
+  #emt {
+    font-size: 14px;
+    color: #c1c1ff;
+  }
+  .cinfo {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5%;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 20px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  .modal-header {
+    padding: 10px 5px;
+    color: #22223F;
+  }
+  
+  .modal-body {
+    margin-top: 3%;
+  }
+  
+  .modal-footer {
+    padding: 10px 16px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #22223F;
+  }
+  .inp {
+    background: transparent;
+    border: 1px solid #c1c2fa;
+    border-radius: 10px;
+    width: 48%;
+    height: 50px;
+    margin: 5px;
+    padding-left: 10px;
+  }
+  ::placeholder {
+    color: #bac0d1;
+  }
+  .modal-header h2 {
+    margin-bottom: 1%;
+    color: #22223F;
+  }
+  .subm {
+    border: none;
+    padding: 3% 15%;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 800px) {
+    .modal-content {
+      width: 90%;
+    }
+    .inp {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 810px) and (max-width: 1030px) {
+    .inp {
+      width: 45%;
+    }
+  }
+  
+  .mystyle {
+    background: #e4e8ff !important;
+  }
+  .myBtn1 {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    color: #917cff;
+  }
+  
